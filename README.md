@@ -30,7 +30,7 @@ Run the package using `java -jar RCrypto<version>.jar`
 
 
 
-## Getting Started
+## Getting Started <Local Build>
 
     1. git clone https://github.com/Chal13W1zz/RCrypto.git
 
@@ -40,7 +40,9 @@ Run the package using `java -jar RCrypto<version>.jar`
 
     4. run psql < create.sql in the project root to create the database
 
-    5. gradle run  / mvn run to start up the api locally
+    5. gradle compilejava  / mvn compile to compile the project
+     
+    6. gradle run to host a local server
 
 
 ## Tests [TO DO]
@@ -52,7 +54,7 @@ Run the package using `java -jar RCrypto<version>.jar`
 
 | EndPoint                                |   Functionality                      |
 | --------------------------------------- | ------------------------------------:|
-| GET /records/sync                       | sync and realtime prices departments |
+| GET /records/sync                       | sync and save realtime crypto prices |
 | GET /records/view                       | View historical prices               |
 | POST /records/add                       | Manually add new price records       |
 
